@@ -1,16 +1,18 @@
 # Apollo-DuerOS
  Apollo-DuerOS is a set of telematics products associated with the Apollo , and there are several open source products at present.
  
-## CarLife for Android Vehicle 
+## CarLife+ for Android Vehicle 
 
-[CarLife for Android Vehicle](https://github.com/ApolloAuto/apollo-DuerOS/tree/master/CarLife-Android-Vehicle) is the implementation of the CarLife protocol on the Android platform.
+[CarLife+ for Android Vehicle](https://github.com/ApolloAuto/apollo-DuerOS/tree/master/CarLife-Android-Vehicle) is the implementation of the CarLife+ protocol on the Android platform.
 
-[CarLife](http://carlife.baidu.com/) is a Smartphone-Integration solution, with which drivers can  share the mobile applications suitable for safe driving conditions on MD (Mobile Device) to HU (Head Unit) through the multi-screen sharing and interaction technology, and use the Touch Screen, Hard Keys, Knob Control and Microphone to control CarLife. 
-![CarLife Screen](CarLife.jpeg)
+[CarLife+](http://carlife.baidu.com/) is a Smartphone-Integration solution, with which drivers can  share the mobile applications suitable for safe driving conditions on MD (Mobile Device) to HU (Head Unit) through the multi-screen sharing and interaction technology, and use the Touch Screen, Hard Keys, Knob Control and Microphone to control CarLife+. 
+![CarLife Screen](CarLife+.jpeg)
 
 All the business logic is on the mobilephone side，and the vehicle side  is primarily responsible for the functions of connection, protocol parsing, video decoding, audio playback and touch events.
 
-CarLife mobilephone terminal support iOS and Android platform, vehicle terminal support Android, Linux, WINCE, QNX and other platforms.
+CarLife+ mobilephone terminal support iOS and Android platform, vehicle terminal support Android, Linux, WINCE, QNX and other platforms.
+
+CarLife + currently supports wireless connection. There is no open source for the wireless connection part. Please contact us if you are interested. After confirming the signing of a contract for a mass production project, we will provide you with a spec and corresponding sample code.
 
 ## CarLifeVehicleLib
 [CarLifeVehicleLib](https://github.com/ApolloAuto/apollo-DuerOS/tree/master/CarLife-Vehicle-Lib) is a C++ based cross platform dynamic library, which realizes the function of channel establishment, data sending and receiving, protocol parsing and packing in HU CarLife. Using this library can speed up the development of CarLife in HU.

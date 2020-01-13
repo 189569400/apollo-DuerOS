@@ -1,12 +1,15 @@
 # Apollo-DuerOS
 Apollo-DuerOS 是Apollo旗下车联网相关的产品，目前开放的产品有以下几个。
 
-## CarLife Android车机端
-[CarLife Android车机端](https://github.com/ApolloAuto/apollo-DuerOS/tree/master/CarLife-Android-Vehicle)是CarLife 车机端在Android平台上的实现。
-![CarLife Screen](CarLife.jpeg)
-[CarLife](http://carlife.baidu.com/)是一款手机车机互联的产品,由手机端和车机端组成。手机跟车机可以通过USB线进行连接，实现屏幕投射和反向控制，让用户在车机上使用手机提供的地图、导航、音乐等驾车服务。
+## CarLife+ Android车机端
+[CarLife+ Android车机端](https://github.com/ApolloAuto/apollo-DuerOS/tree/master/CarLife-Android-Vehicle)是CarLife+ 车机端在Android平台上的实现。
+![CarLife Screen](CarLife+.jpeg)
+[CarLife+](http://carlife.baidu.com/)是一款手机车机互联的产品,由手机端和车机端组成。手机跟车机可以通过USB线进行连接，实现屏幕投射和反向控制，让用户在车机上使用手机提供的地图、导航、音乐等驾车服务。
 所有的业务逻辑都在手机端，车机端主要只实现连接、协议解析、视频解码、音频播放和触摸事件等功能。
-CarLife手机端支持iOS和Android平台，车机端支持Android、Linux、WINCE、QNX等平台。
+
+CarLife+手机端支持iOS和Android平台，车机端支持Android、Linux、WINCE、QNX等平台。
+
+CarLife+ 目前已经支持无线无感连接，无线连接部分暂时没有开源，有兴趣接入的合作伙伴请联系我们，确定量产项目签订相关合同之后，我们会给你们提供spec和对应的示例代码。
 
 ## CarLifeVehicleLib
 [CarLifeVehicleLib](https://github.com/ApolloAuto/apollo-DuerOS/tree/master/CarLifeVehicleLib)是一个基于C++的跨平台动态库，实现了CarLife车机端关于通道建立、数据收发、协议解析和打包功能，使用此库可以加快车机端的开发。
