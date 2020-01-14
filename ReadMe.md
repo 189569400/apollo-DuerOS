@@ -12,7 +12,7 @@ All the business logic is on the mobilephone side，and the vehicle side  is pri
 
 CarLife+ mobilephone terminal support iOS and Android platform, vehicle terminal support Android, Linux, WINCE, QNX and other platforms.
 
-CarLife + currently supports wireless connection. There is no open source for the wireless connection part. Please contact us if you are interested. After confirming the signing of a contract for a mass production project, we will provide you with a spec and corresponding sample code.
+CarLife+ currently supports wireless connection. There is no open source code of the wireless connection part. Please contact us if you are interested in embedding wireless CarLife+ in your projects. If you are willing to integrate wireless CarLife+ into a mass production project, we have to check authenticity of the project and will provide you with the spec and sample code.
 
 ## CarLifeVehicleLib
 [CarLifeVehicleLib](https://github.com/ApolloAuto/apollo-DuerOS/tree/master/CarLife-Vehicle-Lib) is a C++ based cross platform dynamic library, which realizes the function of channel establishment, data sending and receiving, protocol parsing and packing in HU CarLife. Using this library can speed up the development of CarLife in HU.
