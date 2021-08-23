@@ -52,7 +52,6 @@ terminal,please refer to<<Baidu CarLife Integration Specification>>
 ## CarLife homepage:
 http://carlife.baidu.com/
 
-
 README Updated on:
 2017-11-09
 	
