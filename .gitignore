@@ -30,3 +30,24 @@
 *.exe
 *.out
 *.app
+
+# Carlife-Android-Vehicle
+/Carlife-Android-Vehicle/.gradle
+/Carlife-Android-Vehicle/.idea
+
+# Carlife-Android-Vehicle-V4.0
+/Carlife-Android-Vehicle-V4.0/*.iml
+/Carlife-Android-Vehicle-V4.0/.gradle
+/Carlife-Android-Vehicle-V4.0/local.properties
+/Carlife-Android-Vehicle-V4.0/.idea/caches
+/Carlife-Android-Vehicle-V4.0/.idea/libraries
+/Carlife-Android-Vehicle-V4.0/.idea/modules.xml
+/Carlife-Android-Vehicle-V4.0/.idea/workspace.xml
+/Carlife-Android-Vehicle-V4.0/.idea/navEditor.xml
+/Carlife-Android-Vehicle-V4.0/.idea/assetWizardSettings.xml
+/Carlife-Android-Vehicle-V4.0/.DS_Store
+/Carlife-Android-Vehicle-V4.0/build
+/Carlife-Android-Vehicle-V4.0/captures
+/Carlife-Android-Vehicle-V4.0/.externalNativeBuild
+/Carlife-Android-Vehicle-V4.0/.cxx
+/Carlife-Android-Vehicle-V4.0/.idea
