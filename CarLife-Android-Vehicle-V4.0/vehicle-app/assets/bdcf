@@ -1,0 +1,68 @@
+#Channel Id: Baidu will provide the channel id to all OEM
+20352101
+
+# Audio Track Type 0:普通双音轨(路畅、华阳、飞哥) 1:单音轨(掌讯,仅用于测试) 2:定制双音轨-1(BYD、远峰) 3:定制双音轨-2（长安） 4：百度定制双音轨
+AUDIO_TRACK_TYPE = 0
+
+# 是否使用车机端MiC 0:使用车机端mic 1:使用手机端mic 2:不支持
+VOICE_MIC = 0
+
+# 是否支持唤醒
+VOICE_WAKEUP = 1
+
+# 是否支持Carlife内置蓝牙电话
+BLUETOOTH_INTERNAL_UI = 0
+
+# 是否支持蓝牙自动匹配
+BLUETOOTH_AUTO_PAIR = 0
+
+# Focus Ui
+FOCUS_UI = 1
+
+# 音频采样 0:跟随手机系统 1:48k
+MEDIA_SAMPLE_RATE = 0
+
+# Android手机的连接类型 0:ADB 1:AOA
+CONNECT_TYPE_ANDROID = 1
+
+# Iphone手机的连接类型 0:NCM 1:Wifi 2:NCM&Wifi(会显示切换的开关）
+CONNECT_TYPE_IPHONE = 1
+
+# iPhone手机通过USB的连接方式 0：IPV6  1：IPV4  2：USB共享
+IPHONE_USB_CONNECT_TYPE = 0
+
+# iPhone手机通过USB—NCM连接映射在车机端网卡的名称
+IPHONE_NCM_ETHERNET_NAME = usb0
+
+#Next song
+#KEYCODE_SEEK_ADD = 23
+
+#Previous song
+#KEYCODE_SEEK_SUB = 22
+
+#定制MD向HU传输音频流方向 0：专用独立通道传输 1：蓝牙
+AUDIO_TRANSMISSION_MODE=0
+
+# 车机端支持的无线连接类型 0：不支持  1：热点  2：直连  3：都支持
+CONFIG_WIRLESS_TYPE = 3
+
+# 车机端支持的无线连接频率 0：2.4G  1：5G
+CONFIG_WIRLESS_FREQUENCY = 1
+
+# 是否支持蓝牙音频
+CONFIG_BLUETOOTH_AUDIO = false
+
+# 车机端wifi直连的名字
+CONFIG_WIFI_DIRECT_NAME = MI8
+
+# 手机端蓝牙名称
+CONFIG_TARGET_BLUETOOTH_NAME = 1234MIX
+
+# 车机端蓝牙名称
+CONFIG_HU_BT_NAME = xxx
+
+# 车机端蓝牙MAC地址
+CONFIG_HU_BT_MAC = yyy-zzz-xxx
+
+# 是否保存音频源文件
+CONFIG_SAVE_AUDIO_FILE = false
