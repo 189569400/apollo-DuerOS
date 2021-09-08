@@ -35,6 +35,8 @@
 /Carlife-Android-Vehicle/.gradle
 /Carlife-Android-Vehicle/.idea
 
+.DS_Store
+
 # Carlife-Android-Vehicle-V4.0
 /Carlife-Android-Vehicle-V4.0/*.iml
 /Carlife-Android-Vehicle-V4.0/.gradle
